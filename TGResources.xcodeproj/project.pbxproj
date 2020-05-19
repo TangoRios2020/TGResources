@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		35AA0F8570B65C46B1034544 /* Pods_TGResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69568F2ED5FE29ACCC6D8B6 /* Pods_TGResources.framework */; };
 		C42AE75D247441EB0025D00D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AE75C247441EB0025D00D /* SceneDelegate.swift */; };
+		C42AE76424744A880025D00D /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AE76324744A880025D00D /* Configs.swift */; };
 		C43D761024743C9800483809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D760F24743C9800483809 /* AppDelegate.swift */; };
 		C43D761424743C9800483809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D761324743C9800483809 /* ViewController.swift */; };
 		C43D761724743C9800483809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43D761524743C9800483809 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		A8F1F0D98CD4817BC63084E1 /* Pods-TGResources.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGResources.debug.xcconfig"; path = "Target Support Files/Pods-TGResources/Pods-TGResources.debug.xcconfig"; sourceTree = "<group>"; };
 		B69568F2ED5FE29ACCC6D8B6 /* Pods_TGResources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42AE75C247441EB0025D00D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C42AE76324744A880025D00D /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
 		C43D760C24743C9800483809 /* TGResources.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGResources.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43D760F24743C9800483809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C43D761324743C9800483809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		C42AE759247441400025D00D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				C42AE75F247443C30025D00D /* Main */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -119,6 +122,31 @@
 				C42AE75C247441EB0025D00D /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		C42AE75E247443150025D00D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C43D761824743C9A00483809 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C42AE75F247443C30025D00D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C43D761A24743C9A00483809 /* LaunchScreen.storyboard */,
+				C43D761524743C9800483809 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C42AE76024744A1D0025D00D /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				C42AE76324744A880025D00D /* Configs.swift */,
+			);
+			path = Configurations;
 			sourceTree = "<group>";
 		};
 		C43D760324743C9800483809 = {
@@ -146,13 +174,12 @@
 		C43D760E24743C9800483809 /* TGResources */ = {
 			isa = PBXGroup;
 			children = (
+				C42AE76024744A1D0025D00D /* Configurations */,
+				C42AE75E247443150025D00D /* Resources */,
 				C42AE75B247441600025D00D /* Application */,
 				C42AE75A2474414E0025D00D /* Networking */,
 				C42AE759247441400025D00D /* Modules */,
 				C43D761324743C9800483809 /* ViewController.swift */,
-				C43D761524743C9800483809 /* Main.storyboard */,
-				C43D761824743C9A00483809 /* Assets.xcassets */,
-				C43D761A24743C9A00483809 /* LaunchScreen.storyboard */,
 				C43D761D24743C9A00483809 /* Info.plist */,
 			);
 			path = TGResources;
@@ -352,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C43D761424743C9800483809 /* ViewController.swift in Sources */,
+				C42AE76424744A880025D00D /* Configs.swift in Sources */,
 				C43D761024743C9800483809 /* AppDelegate.swift in Sources */,
 				C42AE75D247441EB0025D00D /* SceneDelegate.swift in Sources */,
 			);

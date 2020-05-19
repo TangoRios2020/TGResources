@@ -2,7 +2,7 @@
 //  TGResourcesUITests.swift
 //  TGResourcesUITests
 //
-//  Created by 汤振治 on 2020/5/20.
+//  Created by Tangos on 2020/5/20.
 //  Copyright © 2020 Tangorios. All rights reserved.
 //
 
